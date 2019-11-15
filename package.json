@@ -1,0 +1,15 @@
+{
+  "name": "nodemailer-and-mailhog-sample",
+  "version": "1.0.0",
+  "description": "nodemailer sample",
+  "scripts": {
+    "start": "node ./src/mail.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasu-s/nodemailer-and-mailhog-sample.git"
+  },
+  "dependencies": {
+    "nodemailer": "^6.3.1"
+  }
+}

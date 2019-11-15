@@ -9,3 +9,7 @@ services:
     environment:
       MH_STORAGE: maildir
       MH_MAILDIR_PATH: /tmp
+    volumes:
+      - maildir:/tmp
+volumes:
+  maildir: {}
