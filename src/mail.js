@@ -12,7 +12,7 @@ const smtp = mailer.createTransport({
 const mailOptions = {
   from: 'hoge@github.com',
   to: 'hogehoge@github.com',
-  subject: 'メールタイトル',
+  subject: 'タイトルです',
   html: 'メール本文です',
 };
 
