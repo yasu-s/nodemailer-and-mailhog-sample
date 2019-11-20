@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "nodemailer sample",
   "scripts": {
-    "start": "node ./src/mail.js"
+    "start": "node ./src/mail.js",
+    "start:attachment": "node ./src/mail_attachment.js"
   },
   "repository": {
     "type": "git",
